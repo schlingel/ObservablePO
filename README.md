@@ -15,11 +15,7 @@ The wrapper creates getter and setter functions for all properties. All values w
 >
 > observable.setName('Alfred');
 > observable.getArr().set(1, 123);
-> // results to
-> // {
-> //   name : 'Alfred',
-> //   arr : [1, 123, 3, 4]
-> // }
+> // results to { name : 'Alfred', arr : [1, 123, 3, 4] }
 
 Primitive types are:
 -  String
